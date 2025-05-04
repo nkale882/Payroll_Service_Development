@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# IDE specific files
+.idea/
+.vscode/
+
+**/rest_framework_settings.py
+venv/
+
+
+# Django migration files
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Local settings file
+*/settings_local.py
+
+# Log files
+*.log
+
+# SQLite database file
+db.sqlite3
+
+# Staticfiles directory (assuming you use collectstatic)
+/staticfiles/
+
+# Media files directory
+/media/
+
+# Compiled Python bytecode
+__pycache__/
+
+# macOS directory attributes
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+.vscode/
+db.sqlite3/
+venv/
